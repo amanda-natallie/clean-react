@@ -1,0 +1,7 @@
+{
+  "editor.fontFamily": "Fira Code Light",
+  "prettier.jsxSingleQuote": true,
+  "prettier.singleQuote": true,
+  "prettier.semi": false,
+  "prettier.trailingComma": "none"
+}
