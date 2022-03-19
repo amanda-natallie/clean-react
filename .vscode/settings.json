@@ -6,5 +6,6 @@
   "prettier.trailingComma": "none",
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
-  }
+  },
+  "workbench.editor.closeEmptyGroups": false
 }
