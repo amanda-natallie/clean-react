@@ -3,5 +3,8 @@
   "prettier.jsxSingleQuote": true,
   "prettier.singleQuote": true,
   "prettier.semi": false,
-  "prettier.trailingComma": "none"
+  "prettier.trailingComma": "none",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  }
 }
