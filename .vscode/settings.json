@@ -1,11 +1,10 @@
 {
+  "eslint.enable": true,
   "editor.fontFamily": "Fira Code Light",
-  "prettier.jsxSingleQuote": true,
-  "prettier.singleQuote": true,
-  "prettier.semi": false,
-  "prettier.trailingComma": "none",
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   },
-  "workbench.editor.closeEmptyGroups": false
+  "workbench.editor.closeEmptyGroups": false,
+  "eslint.debug": true,
+  "eslint.format.enable": true
 }

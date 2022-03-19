@@ -9,6 +9,15 @@
     "@typescript-eslint/camelcase": "off",
     "@typescript-eslint/no-explicit-any": "off",
     "@typescript-eslint/no-non-null-assertion": "off",
-    "@typescript-eslint/no-unused-vars": "off"
+    "@typescript-eslint/no-unused-vars": "off",
+    "@typescript-eslint/space-before-function-paren": "off",
+    "quotes": "off",
+    "@typescript-eslint/quotes": [
+      "error"
+    ],
+    "comma-dangle": "off",
+    "@typescript-eslint/comma-dangle": [
+      "error"
+    ]
   }
 }
