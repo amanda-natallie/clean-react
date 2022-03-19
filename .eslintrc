@@ -18,6 +18,7 @@
     "comma-dangle": "off",
     "@typescript-eslint/comma-dangle": [
       "error"
-    ]
+    ],
+    "@typescript-eslint/no-floating-promises": "off"
   }
 }
