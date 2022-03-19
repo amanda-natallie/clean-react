@@ -6,6 +6,7 @@ type SutTypes = {
   httpPostClientSpy: HttpPostClientSpy
 }
 
+// System Under Test factory
 const makeSut = (url: string = 'any_url'): SutTypes => {
   const httpPostClientSpy = new HttpPostClientSpy()
   const sut = new RemoteAuthentication(url, httpPostClientSpy)
