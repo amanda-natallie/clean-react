@@ -1,5 +1,16 @@
 {
-  "extends": "standard-with-typescript",
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
+  "extends": [
+    "standard-with-typescript",
+    "plugin:react/recommended"
+  ],
+  "plugins": [
+    "react"
+  ],
   "parserOptions": {
     "project": "./tsconfig.json"
   },
@@ -19,6 +30,8 @@
     "@typescript-eslint/comma-dangle": [
       "error"
     ],
-    "@typescript-eslint/no-floating-promises": "off"
+    "@typescript-eslint/no-floating-promises": "off",
+    "react/jsx-uses-react": "error",
+    "react/jsx-uses-vars": "error"
   }
 }
